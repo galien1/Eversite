@@ -1,5 +1,23 @@
 <!DOCTYPE html>
 <html><head><title>Eversite</title></head>
+<marquee direction="left"><br/>
+<h3>This site is made using <img src="https://www.planet-source-code.com/vb/2010Redesign/images/LangugeHomePages/HTML5_CSS_JavaScript.png" height=50px> Enjoy!</h3>
+</marquee><br/>
+
+
+<script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAYgeJRKQTQa1VSXMbyDUkcS0dd_MWlZhw",
+    authDomain: "eversite-edf94.firebaseapp.com",
+    databaseURL: "https://eversite-edf94.firebaseio.com",
+    projectId: "eversite-edf94",
+    storageBucket: "eversite-edf94.appspot.com",
+    messagingSenderId: "463882186351"
+  };
+  firebase.initializeApp(config);
+</script>
 
 <!--  -->
 <body style="background-image:url(http://www.desktopwallpaperhd.net/wallpapers/13/3/gardens-background-notext-desktop-sites-136451.jpg)">
@@ -17,13 +35,14 @@
 
 <!-- Stylesheet link -->
 <link rel="stylesheet" type="text/css" href="style.css">
+<script src="script.js"></script>
 
 <!-- Site welcome and text -->
 <h1><p>Weclome to Eversite!</p></h1>
 <h3><p>All green buttons are friends of Eversite and all red buttons are random sites!</p></h3>
 
 <quote onclick="JavaScript:alert('None')">Quote O.F.D.</quote>
-<lyric onclick="JavaScript:alert('Sleeping but my works not done')">Lyric O.F.D.</lyric>
+<lyric onclick="JavaScript:alert('None')">Lyric O.F.D.</lyric>
 <!-- Site links --> 
 <button type="button" onclick="link('http://galien1.github.io')">galien1's site!</button>
 <button type="button" onclick="link('http://baseben9.github.io')">baseben9's site!</button>
